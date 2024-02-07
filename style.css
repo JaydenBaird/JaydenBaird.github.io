@@ -1,0 +1,15 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background-color: midnightblue;
+    /* page color */
+    color: rgb(20, 143, 250);
+    /* text color */
+    font-family: 'Nunito Sans';
+    /* text font */
+    font-size: 20px;
+    
+  }
