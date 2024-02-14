@@ -18,7 +18,5 @@ html {
   }
   p {
     text-align: left;
+    font-size:25px;
   }
-  p {
-    font-size: 1.2em;
-}
