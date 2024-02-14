@@ -16,6 +16,9 @@ html {
   a {
     color: #9BBEC8;
   }
-  P {
-    text-align: center;
+  p {
+    text-align: left;
   }
+  p {
+    font-size: 1.2em;
+}
