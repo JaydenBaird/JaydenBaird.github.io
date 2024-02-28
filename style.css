@@ -5,22 +5,64 @@ html {
   
   body {
     background-color: #164863;
-    /* page color */
     color: #DDF2FD;
-    /* text color */
     font-family: 'Nunito Sans';
-    /* text font */
     font-size: 20px;
-    
   }
+
   a {
     color: #9BBEC8;
   }
+
   p {
     text-align: left;
     font-size:25px;
   }
+  
   .sticky{
     position: sticky;
     top: 0;
   }
+
+  .dropbtn {
+    background-color: #164863;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;    
+}
+
+.dropdown:hover {
+    position: relative;
+    display: inline-block;   
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 72px;
+    top: 15px;
+    background-color: #f1f1f1;
+    width: 100vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #164863;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+.dropdown-content{
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #164863;
+}
