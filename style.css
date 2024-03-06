@@ -64,9 +64,19 @@ html {
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #164863;
+    background-color: #DDF2FD;
+}
+input {
+  background-color: #DDF2FD;
+}
+input {
+  background-color: #164863;
+  border: 0;
+}
+select {
+  border: 0;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-font-siz 10px;
+  font-size: 10px;
 }

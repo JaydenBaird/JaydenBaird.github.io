@@ -31,6 +31,28 @@
     <span>
         <a href="https://open.spotify.com/user/31qz4myopg2ukr7ypbsh4duiup7i/top/artists"><img src=images/spotify-removebg.png height="20"></a> </span>
         <p> You can contact me at my personal email which is bairdjayden5114@gmail.com and my work email is jbaird@brooklynsteamcenter.org/jabai9261@westinghousehs.org my number is 1-929-451-2179.</p>
-
+        <p>If you want to contact me you can fill out this form</p>
+        <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+        method="post">
+          <input name="send-to" value="lvergara@brooklynsteamcenter.org" hidden>
+          <label for="gender">Gender:</label><br>
+          <select name="gender" id="gender">
+            <option value=" ">Select</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Non-Binary">Non-Binary</option>
+            <option value="Rather not say">Rather not say</option>
+          </select><br><br> 
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value="" placeholder="Jayden" required><br><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" value="" placeholder="Ketchum" required><br><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" value="" placeholder="Aketchum123@gmail.com" required><br><br>
+          <label for="phone">Phone Number (Optional):</label><br>
+          <input type="text" id="phone" name="phone" value="" placeholder="(123)-456-7890"><br><br>
+          <input type="submit" value="Submit">
+          <input type="reset">
+        </form><br>
 </body>
 </html>
