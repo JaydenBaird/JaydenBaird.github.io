@@ -42,11 +42,13 @@ html {
     position: absolute;
     left: 72px;
     top: 15px;
+/*Fix this taking up not enough of the screen*/
     background-color: #f1f1f1;
-    width: 100vw;
+    width: 900%;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
+
 .dropdown-content a {
     color: #164863;
     padding: 12px 16px;
@@ -64,19 +66,38 @@ html {
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #DDF2FD;
+    background-color: #164863;
 }
 input {
   background-color: #DDF2FD;
 }
 input {
   background-color: #164863;
-  border: 0;
+  border: 1;
 }
 select {
-  border: 0;
+  border: ;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  font-size: 10px;
+  p  {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  h2{
+    font-size: 22px;
+  }
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  p  {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  p  {
+    font-size: 30px;
+  }
+}
+/* Add more media changes so it look better*/
