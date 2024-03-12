@@ -3,35 +3,34 @@ html {
     width: 100%;
   }
   
-  body {
+body {
     background-color: #164863;
     color: #DDF2FD;
     font-family: 'Nunito Sans';
     font-size: 20px;
   }
 
-  a {
+ a {
     color: #9BBEC8;
   }
 
-  p {
+p {
     text-align: left;
     font-size:25px;
   }
   
-  .sticky{
+.sticky{
     position: sticky;
     top: 0;
   }
 
-  .dropbtn {
+.dropbtn {
     background-color: #164863;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;    
 }
-
 .dropdown:hover {
     position: relative;
     display: inline-block;   
@@ -44,9 +43,10 @@ html {
     top: 15px;
 /*Fix this taking up not enough of the screen*/
     background-color: #f1f1f1;
-    width: 900%;
+    width: 90vw;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    
 }
 
 .dropdown-content a {
@@ -81,23 +81,38 @@ select {
 
 @media (min-width: 320px) and (max-width: 767px) {
   p  {
-    font-size: 20px;
+    font-size: 18px;
   }
   h1 {
-    font-size: 25px;
+    font-size: 24px;
   }
   h2{
-    font-size: 22px;
+    font-size: 21px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  p  {
-    font-size: 20px;
-  }
+  p {
+  font-size: 23px;
+}
+h1 {
+  font-size: 33px;
+}
+h2{
+  font-size: 28px;
+}
 }
 @media (min-width: 1024px) {
-  p  {
-    font-size: 30px;
-  }
+  p{
+  font-size: 30px;
+}
+h1 {
+  font-size: 40px;
+}
+h2{
+  font-size: 34px;
+}
+nav {
+  size-adjust: 100;
+}
 }
 /* Add more media changes so it look better*/
